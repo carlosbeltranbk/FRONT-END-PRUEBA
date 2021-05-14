@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Prueba Carlos Beltrán Front End</title>
+<body>
+    <h1>Lista de Colonias registradas</h1>
+  <br>
+  <div class="container">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre Colonia</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let colonia of colonias">
+          <th scope="row">1</th>
+          <td>{{colonia.NombreColonia}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
